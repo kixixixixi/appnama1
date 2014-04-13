@@ -11,7 +11,7 @@
 @interface GameViewController : UIViewController
 
 {
-    UIImageView *hiyoImv;
+    //UIImageView *hiyoImv;
 }
 
 @end
