@@ -27,6 +27,34 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //画像を描画します
+    
+    //背景
+    UIImageView *bgImv = [[UIImageView alloc]init];
+    bgImv.image = [UIImage imageNamed:@"bg.png"];
+    bgImv.frame = CGRectMake(0, 0, 320, 568);
+    [self.view addSubview:bgImv];
+    
+    //ひよこ
+    hiyoImv = [[UIImageView alloc]init];
+    hiyoImv.image = [UIImage imageNamed:@"hiyo.png"];
+    hiyoImv.frame = CGRectMake(320, 160, 60, 60);
+    [self.view addSubview:hiyoImv];
+    
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    
+    
+    [UIView animateWithDuration:0.5f
+                          delay:0
+                        options:0
+                     animations:^{
+                         hiyoImv.frame = CGRectMake(0, 160, 60, 60);
+                     } completion:^(BOOL finished) {
+                     }];
 }
 
 - (void)didReceiveMemoryWarning
