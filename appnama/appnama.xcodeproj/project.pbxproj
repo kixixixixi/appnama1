@@ -25,6 +25,8 @@
 		A1F1713418FA64F60038005F /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F1713018FA64F60038005F /* btn.png */; };
 		A1F1713518FA64F60038005F /* hiyo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F1713118FA64F60038005F /* hiyo.png */; };
 		A1F1713618FA64F60038005F /* titlt.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F1713218FA64F60038005F /* titlt.png */; };
+		A1F1713918FA80850038005F /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F1713718FA80850038005F /* minus.png */; };
+		A1F1713A18FA80850038005F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F1713818FA80850038005F /* plus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		A1F1713018FA64F60038005F /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
 		A1F1713118FA64F60038005F /* hiyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo.png; sourceTree = "<group>"; };
 		A1F1713218FA64F60038005F /* titlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlt.png; sourceTree = "<group>"; };
+		A1F1713718FA80850038005F /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		A1F1713818FA80850038005F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				A1F1713018FA64F60038005F /* btn.png */,
 				A1F1713118FA64F60038005F /* hiyo.png */,
 				A1F1713218FA64F60038005F /* titlt.png */,
+				A1F1713718FA80850038005F /* minus.png */,
+				A1F1713818FA80850038005F /* plus.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 				A1F1713518FA64F60038005F /* hiyo.png in Resources */,
 				A1F1710318FA5F0D0038005F /* Images.xcassets in Resources */,
 				A1F1713418FA64F60038005F /* btn.png in Resources */,
+				A1F1713918FA80850038005F /* minus.png in Resources */,
 				A1F1713318FA64F60038005F /* bg.png in Resources */,
 				A1F1713618FA64F60038005F /* titlt.png in Resources */,
+				A1F1713A18FA80850038005F /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
