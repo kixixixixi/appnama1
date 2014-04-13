@@ -7,11 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultViewController.h"
 
 @interface GameViewController : UIViewController
 
 {
     //UIImageView *hiyoImv;
+    
+    int userCount;
+    UILabel *countLabel;
+    
+    int gameCount;
+    
+    int random;
+    
+    BOOL flg;
 }
 
 @end
