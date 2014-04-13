@@ -27,10 +27,26 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
     UIImageView *bgImv = [[UIImageView alloc]init];
     bgImv.image = [UIImage imageNamed:@"bg.png"];
-    bgImv.frame = CGRectMake(0, 0, 320, 538);
+    bgImv.frame = CGRectMake(0, 0, 320, 568);
     [self.view addSubview:bgImv];
+    
+    UIImageView *hiyoImv = [[UIImageView alloc]init];
+    hiyoImv.image = [UIImage imageNamed:@"hiyo.png"];
+    hiyoImv.frame = CGRectMake(60, 160, 200, 200);
+    [self.view addSubview:hiyoImv];
+    
+    UIImageView *titleImv = [[UIImageView alloc]init];
+    titleImv.image = [UIImage imageNamed:@"titlt.png"];
+    titleImv.frame = CGRectMake(0, 80, 320, 45);
+    [self.view addSubview:titleImv];
+    
+    UIImageView *btnImv = [[UIImageView alloc]init];
+    btnImv.image = [UIImage imageNamed:@"btn.png"];
+    btnImv.frame = CGRectMake(0, 420, 320, 80);
+    [self.view addSubview:btnImv];
 }
 
 - (void)didReceiveMemoryWarning
